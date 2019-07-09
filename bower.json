@@ -1,0 +1,22 @@
+{
+  "name": "music-albums",
+  "description": "Music albums application",
+  "main": "app.js",
+  "authors": [
+    "Linus Phan <phanlinus@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/linusphan/music-albums",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "backbone": "^1.4.0"
+  }
+}
