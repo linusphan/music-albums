@@ -20,6 +20,7 @@
   "dependencies": {
     "jasmine-node": "^3.0.0",
     "node-static": "^0.7.11",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0"
   }
 }
