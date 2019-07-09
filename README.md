@@ -11,3 +11,11 @@ collection viewer.
 * list of albums and its track listings
 * data source is a custom-built Node API
 * server side and client side specs
+
+# Technologies
+
+* NodeJS
+* jasmine-node
+* node-static
+* nodemon
+* request
