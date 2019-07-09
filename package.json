@@ -1,0 +1,19 @@
+{
+  "name": "music-albums",
+  "version": "1.0.0",
+  "description": "Music albums application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linusphan/music-albums.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linusphan/music-albums/issues"
+  },
+  "homepage": "https://github.com/linusphan/music-albums#readme"
+}
