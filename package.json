@@ -4,7 +4,8 @@
   "description": "Music albums application",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js",
+    "test": "jasmine-node spec --autotest --color --watch ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/linusphan/music-albums/issues"
   },
-  "homepage": "https://github.com/linusphan/music-albums#readme"
+  "homepage": "https://github.com/linusphan/music-albums#readme",
+  "dependencies": {
+    "jasmine-node": "^3.0.0",
+    "node-static": "^0.7.11",
+    "nodemon": "^1.19.1"
+  }
 }
