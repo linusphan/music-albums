@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/linusphan/music-albums#readme",
   "dependencies": {
+    "grunt": "^1.0.4",
+    "grunt-bower-concat": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
     "jasmine-node": "^3.0.0",
     "node-static": "^0.7.11",
     "nodemon": "^1.19.1",
