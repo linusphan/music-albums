@@ -1,6 +1,14 @@
 const $overlay = $('#overlay');
 
 const TracksView = Backbone.View.extend({
+  attributes: {
+    id: 'tracks_modal',
+  },
+
+  events: {
+    'click a.close': 'close',
+  },
+
   duration: 300,
   template: Handlebars.compile($("[data-name='tracks']").html()),
 
@@ -11,6 +19,7 @@ const TracksView = Backbone.View.extend({
   close: function (e) {
     e.preventDefault();
     this.fadeOut();
+    history.back();
   },
 
   fadeOut: function () {
