@@ -26,7 +26,7 @@ describe('Tracks view', function () {
   });
 
   it('removes the view when fadeOut called', function () {
-    this.vsiew.fadeOut();
+    this.view.fadeOut();
     expect($('#tracks_modal').length).toBe(0);
   });
 });
