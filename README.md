@@ -1,3 +1,7 @@
+<img width="1086" alt="music_albums_1" src="https://user-images.githubusercontent.com/13613724/61009026-2d8fe300-a326-11e9-8d90-a776a4892df8.png">
+
+<img width="1427" alt="music_albums_2" src="https://user-images.githubusercontent.com/13613724/61009038-3aacd200-a326-11e9-8b14-19920c9dee2f.png">
+
 # About
 
 This is a single-page application that brings together various technologies,
